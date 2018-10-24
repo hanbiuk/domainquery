@@ -1,0 +1,27 @@
+[INFO  - 2018-09-30T08:55:43.779Z] GhostDriver - Main - running on port 53746
+[INFO  - 2018-09-30T08:55:43.874Z] Session [9d5391e0-c48e-11e8-805f-3796db621f13] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-09-30T08:55:43.874Z] Session [9d5391e0-c48e-11e8-805f-3796db621f13] - page.customHeaders:  - {}
+[INFO  - 2018-09-30T08:55:43.874Z] Session [9d5391e0-c48e-11e8-805f-3796db621f13] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-09-30T08:55:43.874Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9d5391e0-c48e-11e8-805f-3796db621f13
+[ERROR - 2018-09-30T08:55:48.048Z] Session [9d5391e0-c48e-11e8-805f-3796db621f13] - page.onError - msg: ReferenceError: Can't find variable: getCookieData
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-30T08:55:48.049Z] Session [9d5391e0-c48e-11e8-805f-3796db621f13] - page.onError - stack:
+  eval code (undefined:54)
+  eval (:0)
+  (anonymous function) (http://imgi.xinnet.com/www/newjavascript/jquery.js:2)
+  globalEval (http://imgi.xinnet.com/www/newjavascript/jquery.js:2)
+  (anonymous function) (http://imgi.xinnet.com/www/newjavascript/jquery.js:4)
+  each (http://imgi.xinnet.com/www/newjavascript/jquery.js:2)
+  domManip (http://imgi.xinnet.com/www/newjavascript/jquery.js:4)
+  append (http://imgi.xinnet.com/www/newjavascript/jquery.js:3)
+  (anonymous function) (http://imgi.xinnet.com/www/newjavascript/jquery.js:4)
+  access (http://imgi.xinnet.com/www/newjavascript/jquery.js:2)
+  html (http://imgi.xinnet.com/www/newjavascript/jquery.js:4)
+  (anonymous function) (http://www.xinnet.com/public/hy_header.js:17)
+  o (http://imgi.xinnet.com/www/newjavascript/jquery.js:2)
+  fireWith (http://imgi.xinnet.com/www/newjavascript/jquery.js:2)
+  w (http://imgi.xinnet.com/www/newjavascript/jquery.js:4)
+  d (http://imgi.xinnet.com/www/newjavascript/jquery.js:4)
+
+  phantomjs://platform/console++.js:263 in error
